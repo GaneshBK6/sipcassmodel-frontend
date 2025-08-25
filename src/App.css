@@ -344,8 +344,8 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2.5rem; /* More separation */
-    gap: 1.5rem;
+    margin-bottom: 1rem; /* More separation */
+    gap: 1rem;
     flex-wrap: wrap;
 }
 
@@ -392,8 +392,8 @@ h2 {
 .metric-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Larger minimum width */
-    gap: 2rem; /* More space between cards */
-    margin-bottom: 2.5rem; /* Add margin below metric cards */
+    gap: 1.5rem; /* More space between cards */
+    margin-bottom: 1rem; /* Add margin below metric cards */
 }
 
 .luxury-card { /* Renamed for elegance */
@@ -1179,3 +1179,7 @@ h2 {
         font-size: 0.9rem;
     }
 }
+
+
+
+
